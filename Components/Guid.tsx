@@ -6,11 +6,11 @@ const Guid = () => {
       <div className=' padding-container max-container w-full pb-24'>
         <Image src='camp.svg' alt='camp' width={50} height={50}/>
         <p className='uppercase regular-18 -mt-1 mb--3 text-green-50'>
-          We are here for you
+        ང་ཚོས་འདི་ནས་ཁྱེད་ལ་ཞབས་འདེགས་ཞུ།
           </p>
           <div className='flex flex-wrap justify-between gap-5 lg:gap-10'>
-            <h2 className=' bold-40 lg:bold-64 xl:max-w-[390px]'>Guide You to Easy Path</h2>
-            <p className='regular-16 text-gray-30 xl:max-w-[520px]'>Only with the hilink application you will no longer get lost and get lost again, because we already support offline maps when there is no internet connection in the field. Invite your friends, relatives and friends to have fun in the wilderness through the valley and reach the top of the mountain
+            <h2 className=' bold-40 lg:bold-64 xl:max-w-[390px]'>ཁྱེད་ལ་བློ་བདེ་བག་ཕེབས་ངང་ལམ་བུ་ཤར་གཏོང་ཐུབ</h2>
+            <p className='regular-16 text-gray-30 xl:max-w-[520px]'>hink ལ་བཀོལ་སྤྱོད་བྱེད་པའི་གོ་རིམ་ཁོ་ན་སྤྱད་ན་མ་གཏོགས་ལམ་ནོར་མི་སྲིད། གང་ལགས་ཤེ་ན། ཡུལ་དངོས་སུ་དྲ་སྦྲེལ་སྦྲེལ་མཐུད་མེད་པའི་སྐབས་སུ་ང་ཚོས་ཐིག་དང་བྲལ་བའི་ས་ཁྲར་རྒྱབ་སྐྱོར་བྱས་ཟིན་པས་རེད། ཁྱེད་ཀྱི་གྲོགས་པོ་དང་། གཉེན་ཉེ། གྲོགས་པོ་བཅས་གདན་འདྲེན་ཞུས་ནས་ས་རྒོད་དུ་རྩེད་འཇོར་རོལ་ནས་རི་ཁུག་བརྒྱུད་དེ་རི་རྩེར་སླེབས་
             </p>
           </div>
       </div>

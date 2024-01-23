@@ -1,10 +1,6 @@
 import Image from 'next/image'
 import Button from './Button'
 
-import { motion, AnimatePresence } from 'framer-motion';
-import { useSnapshot } from 'valtio';
-
-
 const Hero = () => {
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
@@ -18,10 +14,10 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88 mt-2">བོད་ས་ཆ་མོ།</h1>
 
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
+        <p className=" regular-18 mt-6 text-gray-30 xl:max-w-[520px]">
+        ང་ཚོས་ཁྱེད་ཀྱི་ཡུལ་སྐོར་ཐེངས་རེ་རེའི་ཁྲོད་དུ་རང་བྱུང་ཁམས་ཀྱི་མཛེས་སྡུག་གི་ཡིད་ཚིམ་པའི་ཚོར་སྣང་འཚོལ་ཐུབ་པའི་རེ་བ་བྱེད་ཀྱི་ཡོད། ང་ཚོས་ཁྱེད་རང་ཉེར་སྤྱོད་ཀྱི་གོ་རིམ་ཞིག་གི་ཁྲོད་དུ་འཛམ་གླིང་ལ་སྐོར་བ་རྒྱག་པའི་ཉེན་ཁར་རོགས་རམ་བྱེད་ཐུབ།
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -38,20 +34,20 @@ const Hero = () => {
           </div>
 
           <p className="bold-16 lg:bold-20 text-blue-70">
-            198k
-            <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span>
+            ༡༩༨k
+            <span className="regular-16 lg:regular-20 ml-1">ལོར་ཕུལ་བྱུང་གི་གདེང་འཇོག་གནང་བ།</span>
           </p>
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
-            title="Download App" 
+            title="ཕབ་ལེན་བྱེད་པ།" 
             variant="btn_green" 
           />
           <Button 
             type="button" 
-            title="How we work?" 
+            title="ང་ཚོའི་ལས་ཀ་བྱེད་སྟངས།?" 
             icon="/play.svg"
             variant="btn_white_text" 
           />
@@ -66,17 +62,17 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">ལྷ་ས།</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">173.28 mi</p>
+              <p className="bold-20 text-white">༡༧༣.༢༨ mi</p>
             </div>
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Elevation</p>
-              <p className="bold-20 text-white">2.040 km</p>
+              <p className="bold-20 text-white">༢.༠༢༠ km</p>
             </div>
           </div>
         </div>

@@ -59,7 +59,7 @@ const Camp = () => {
         subtitle='Prigen, Pasuruan'
         peopleJoined='50 + Joined'
         />
-       <CampSite
+      <CampSite
             backgroundImage='bg-bg-img-2'
             title='Mountain View Camp'
             subtitle='Somewhere in the Wilderness'
@@ -71,7 +71,7 @@ const Camp = () => {
           <h2 className="regular-24 md:regural-32 2xl:regular-64 capitalize text-white"> <strong>Feeling Lost </strong>And Not Knowing The Way?
           </h2>
           <p className="regular-15 xl:regular-16 mt-5 text-white">
-          Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
+          རི་འཛེག་མཁན་གྱིས་རི་འཛེག་ས་གནས་གསར་པར་ལྟ་སྐོར་བྱེད་སྐབས་སེམས་ཁྲལ་བྱེད་འགོ་བརྩམས་པ་ནས་བཟུང་ལམ་ནོར་ཤོར་བའི་ངེས་པ་ཧ་ཅང་ཆེ། འདི་ནི་ང་ཚོས་འདི་ནས་ཉེན་ཁར་མི་འཛེམ་པའི་མི་དེ་དག་ལ་ཞབས་འདེགས་ཞུ་དགོས་པའི་རྒྱུ་
           </p>
           <Image
           src='/quote.svg'

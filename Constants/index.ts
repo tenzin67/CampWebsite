@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-     { href: '/', key: 'home', label: 'Home' },
-     { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-     { href: '/', key: 'services', label: 'Services' },
-     { href: '/', key: 'pricing ', label: 'Pricing ' },
-     { href: '/', key: 'contact_us', label: 'Contact Us' },
+     { href: '/', key: 'home', label: 'ཤོག་ངོས་གཙོ་བོ།' },
+     { href: '/', key: 'how_hilink_work', label: 'ང་ཚོས་ལས་ཀ་ཇི་ལྟར་བྱེད་?' },
+     { href: '/', key: 'services', label: 'ཞབས་ཞུའི་ལས་རིགས།' },
+     { href: '/', key: 'pricing ', label: 'རིན་གོང་།' },
+     { href: '/', key: 'contact_us', label: 'འབྲེལ་ལམ་' },
    ];
    
    // CAMP SECTION
@@ -18,32 +18,32 @@ export const NAV_LINKS = [
    // FEATURES SECTION
    export const FEATURES = [
      {
-       title: 'Real maps can be offline',
+       title: 'ས་ཁྲ་ངོ་མ་དེ་ཐིག་ལས་བྲལ་ཆོག།',
        icon: '/map.svg',
        variant: 'green',
        description:
-         'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+         'ང་ཚོས་ཁྱེད་ལ་ཐག་གཅོད་ཀྱི་ཇུས་གཞི་ཞིག་འདོན་སྤྲོད་བྱས་པ་དང་། ཁྱེད་ཀྱིས་རི་འཛེག་སྐབས་ང་ཚོའི་ཉེར་སྤྱོད་གོ་རིམ་བེད་སྤྱོད་བྱེད་ཐུབ་པ་བྱུང་བ་རེད། ཁྱེད་ཀྱིས་གནས་དེར་བརྡ་རྟགས་མེད་པའི་དུས་གང་རུང་ཞིག་ལ་ཐིག་རིས་བཀོལ་ཆོག',
      },
      {
-       title: 'Set an adventure schedule',
+       title: 'ཉེན་ཁར་མི་འཛེམ་པའི་དུས་ཚོད།',
        icon: '/calendar.svg',
        variant: 'green',
        description:
-         "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+         "གྲོགས་པོ་དང་མཉམ་དུ་ཉེན་ཁར་མི་འཛེམ་པར་བཀོད་སྒྲིག་ གུང་གསེང་དུས་སྐབས་སུ་Hiinkལ་སྤྲོ་སྣང་ལྡན་པའི་གཟིགས་སྐྱོང་མང་པོ་འདོན་སྤྲོད་བྱེད་ངེས་ཡིན། དེ་ལྟར་བྱས་ན་གླེང་མོལ་དེ་བས་མང་བ་ཞིག་མེད།",
      },
      {
-       title: 'Technology using augment reality',
+       title: 'དངོས་ཡོད་ཀྱི་ལག་རྩལ་བེད་སྤྱོད་བྱ་དགོས།',
        icon: '/tech.svg',
        variant: 'green',
        description:
-         'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+         'ལག་རྩལ་བཀོལ་སྤྱོད་བྱེད་ཤུགས་ཆེ་རུ་གཏོང་རྒྱུ་དེ་ཁྱེད་རང་ནགས་ཚལ་ཁྲོད་ནས་རི་རྩེར་སླེབས་པའི་ཕྱོགས་སྟོན་དུ་འཛིན་དགོས། དྲ་སྦྲེལ་སྦྲེལ་མཐུད་མེད་པའི་གནས་ཚུལ་འོག་ལག་རྩལ་གསར་ཤོས་ཀྱི་རྒྱབ་སྐྱོར་ཐོབ་ཡོད།',
      },
      {
-       title: 'Many new locations every month',
+       title: 'ཟླ་བ་རེ་རེར་ས་ཆ་གསར་པ་མང་པོ་ཡོད།',
        icon: '/location.svg',
        variant: 'orange',
        description:
-         'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+         'ཟླ་བ་རེ་རེར་ས་ཆ་གསར་པ་ཧ་ཅང་མང་པོ་ཡོད། གང་ལགས་ཤེ་ན། ང་ཚོར་འཛམ་གླིང་ཧྲིལ་པོའི་རང་བཞིན་ལྡན་པའི་རི་འཛེག་མཁན་སྡེ་ཁུལ་ཞིག་ཡོད་པས།',
      },
    ];
    
